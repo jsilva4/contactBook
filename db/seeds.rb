@@ -7,8 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 contactlist = [
-    ["Javier", "Silva", "jsilva4@hawk.iit.edu", "asdbasdbsad", "23123123123"],
-    ["Jay", "Silva", "jay4@hawk.iit.edu", "asdbasdbsad", "23123123123"],
+    ["Javier", "Silva", "jsilva4@hawk.iit.edu", "3020 N. Allen", "773-886-7087"],
+    ["Jav", "Silva", "silva_javier@att.net", "3020 N. Allen", "23123123123"],
     ["Xin", "Chen", "xchen4@hawk.iit.edu", "asdbasdbsad", "23123123123"],
     ["steve", "burnette", "sburnette12@hawk.iit.edu", "asdbasdbsad", "23123123123"],
     ["Neeraj", "Soparawala", "neeraj@hawk.iit.edu", "asdbasdbsad", "23123123123"]
