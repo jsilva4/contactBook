@@ -1,0 +1,21 @@
+%h1 Listing nicknames
+
+%table
+  %thead
+    %tr
+      %th Nickname
+      %th
+      %th
+      %th
+
+  %tbody
+    - @nicknames.each do |nickname|
+      %tr
+        %td= nickname.nickname
+        %td= link_to 'Show', nickname
+        %td= link_to 'Edit', edit_nickname_path(nickname)
+        %td= link_to 'Destroy', nickname, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Nickname', new_nickname_path
